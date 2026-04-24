@@ -1,0 +1,134 @@
+/*
+Theme Name: Dundas Valley Pools - SEO Enhanced Child Theme
+Theme URI: https://dundasvalleypools.ca
+Description: SEO-optimized child theme for Dundas Valley Pools with LocalBusiness schema, meta descriptions, and performance improvements
+Author: OpenClaw SEO
+Author URI: https://openclaw.ai
+Template: astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dundas-pools-seo
+*/
+
+/* Child theme styles */
+
+/* Improved heading hierarchy for SEO */
+.entry-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* Better content readability */
+.entry-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.entry-content h2 {
+    font-size: 1.875rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.entry-content h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Service area highlight boxes */
+.service-area-box {
+    background: #f8f9fa;
+    border-left: 4px solid #007cba;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.service-area-box h3 {
+    margin-top: 0;
+    color: #007cba;
+}
+
+/* FAQ Schema styling */
+.faq-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+/* Breadcrumb styling */
+.seo-breadcrumbs {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.seo-breadcrumbs a {
+    color: #007cba;
+}
+
+.seo-breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+/* CTA Box */
+.seo-cta-box {
+    background: linear-gradient(135deg, #007cba 0%, #005a87 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.seo-cta-box h3 {
+    color: white;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.seo-cta-box .button {
+    background: white;
+    color: #007cba;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.seo-cta-box .button:hover {
+    background: #f0f0f0;
+}
+
+/* Mobile improvements */
+@media (max-width: 768px) {
+    .entry-title {
+        font-size: 1.875rem;
+    }
+    
+    .entry-content {
+        font-size: 1rem;
+    }
+}
